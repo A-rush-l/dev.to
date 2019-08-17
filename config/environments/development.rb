@@ -69,7 +69,7 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-  config.app_domain = "localhost:3000"
+  config.app_domain = "35.189.50.85:3000"
 
   config.action_mailer.default_url_options = { host: "localhost:3000" }
   config.action_mailer.delivery_method = :smtp
